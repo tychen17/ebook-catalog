@@ -42,9 +42,6 @@ Creates a temporary folder structure, runs the scan, and asserts the expected re
 
 Within the same folder and format, if the number of files reaches the threshold (default 3) and at least 60% of the file names match chapter patterns, the files are merged into one book entry:
 
-| Drive | Book name | Format | Location | Note |
-|---|---|---|---|---|
-| work disk | 《明史》 | txt | 《明史》 | merged from 5 chapters |
 
 Files that do not look like chapters (e.g. `notes1.txt`, `intro.txt`) are still listed individually.
 
